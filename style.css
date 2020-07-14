@@ -1,0 +1,219 @@
+/* global */
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: lightslategray;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 2;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+    color:#21CBFF;
+}
+
+footer{
+    background-color: darkslategrey;
+    color: lightcoral
+}
+
+.test{
+    display: inline-block;
+    border-radius: 5%;
+    height: 20%;
+    width: 30%;
+    border: orange;
+    border-width: 3px;
+    border-style: solid;
+    background-color: blue;
+    padding: 30px 0px;
+}
+
+/* header section */
+
+header{
+    /* i have no permission to use this image 
+    background-image:url(ocean.jpg);*/
+    background-color: powderblue;
+    width: 100%;
+    height: auto;
+    color:darkblue;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    /* border-radius: 5px; */
+}
+
+.btn{
+    display:block;
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#icon-water{
+    color: darkblue;
+}
+/* nav */
+
+nav{
+    border: 1px solid blue;
+    border-width: 1px 0;
+    background-color: cornflowerblue;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+/* main */
+
+.text{
+    text-align: center;
+}
+
+.text p{
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.quote{
+    text-align: center;
+    margin-left: 'auto';
+    margin-right: auto;
+}
+
+/* icons */
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:darkblue;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+/* contact us */
+
+.presentation-card{
+    display: block;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-right: 13%;
+    padding-left: 8px;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+    background-color: rgb(13, 98, 177);
+    text-align: justify;
+}
+
+.presentation-card a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.presentation-card img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#google-map{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+
+}
+
+.contact-img{
+    display: block;
+    border: 5px solid black ;
+    width:400px;
+    opacity: .7;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+.bio-img{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.skill-list-ul, .skill-list-ol{
+    list-style-image: url(icon2.png);
+    background-color: #212121;
+    padding: 20px 20px 20px 50px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.skill-list-ul li, .skill-list-ol li{
+    background-color: #3b3b3b;
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.skill-list-ul li:hover, .skill-list-ol li:hover{
+    background-color: #212121;
+    color: #03818a;
+}
